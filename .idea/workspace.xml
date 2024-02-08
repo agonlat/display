@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Fluganzeigetafel:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="03de90a4-60e1-4726-9445-4942bca5d203" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/com/example/fluganzeigetafel/DataInterface.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Data/FlightsTable.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Handler/FileHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/FlightChangeManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/PrintManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/StatisticsManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/ViewChangeManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Utility/FilterAndSearchMethods.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Utility/TimeHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Utility/ValidationUtil.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Data/CSVRow.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Forms/OrderForm.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Handler/FileHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Order.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Print/Printer.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Statistics/OrderChangesStats.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Statistics/OrderStats.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Utilis/Utility.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Validation/Validation.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Starter.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Forms/SuborderForm.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Handler/SubOrdersFileHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Statistics/SuborderChangeStats.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Suborder.java">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/DataInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/DataInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Flights/Controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Flights/Controller/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Flights/Data/FlightsTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Flights/Data/FlightsTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Flights/Data/MainGraphicElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Flights/Data/MainGraphicElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Flights/Handler/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Flights/Handler/FileHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Flights/Manager/FlightChangeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Flights/Manager/FlightChangeManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Flights/Manager/PrintManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Flights/Manager/PrintManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Flights/Manager/StatisticsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Flights/Manager/StatisticsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Flights/Manager/ViewChangeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Flights/Manager/ViewChangeManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Flights/Utility/FilterAndSearchMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Flights/Utility/FilterAndSearchMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Flights/Utility/TimeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Flights/Utility/TimeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Flights/Utility/ValidationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Flights/Utility/ValidationUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Orders/Data/CSVRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Orders/Data/CSVRow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Orders/Forms/OrderForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Orders/Forms/OrderForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Orders/Handler/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Orders/Handler/FileHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Orders/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Orders/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Orders/Print/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Orders/Print/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Orders/Statistics/OrderChangesStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Orders/Statistics/OrderChangesStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Orders/Statistics/OrderStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Orders/Statistics/OrderStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Orders/Utilis/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Orders/Utilis/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Orders/Validation/Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Orders/Validation/Validation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Starter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Suborders/Forms/SuborderForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Suborders/Forms/SuborderForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Suborders/Handler/SubOrdersFileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Suborders/Handler/SubOrdersFileHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Suborders/Statistics/SuborderChangeStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Suborders/Statistics/SuborderChangeStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Suborders/Statistics/SuborderStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Suborders/Statistics/SuborderStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Suborders/Suborder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Suborders/Suborder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Tests/FlightTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Tests/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Tests/OrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Tests/SubcontractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Tests/SubordersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Tests/UtilityTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Tests/UtilityTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Tests/ValidationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/fluganzeigetafel/Tests/ValidationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/short-success-sound-glockenspiel-treasure-video-game-6346.mp3" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="package-info" />
+        <option value="CSS File" />
+        <option value="Class" />
+        <option value="JavaFXApplication" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2ZO9MW5uJiIEfmfjXvbvpiKyX8x" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
+    "last_opened_file_path": "C:/Users/agon_/OneDrive/Desktop/flights",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\agon_\Documents\flights\src\main\resources" />
+      <recent name="C:\Users\agon_\Documents\flights\src\main\resources\com\example\fluganzeigetafel" />
+      <recent name="C:\Users\agon_\Documents\flights\src\main\resources\Icons" />
+      <recent name="C:\Users\agon_\Documents\flights\src\main\java\com\example\fluganzeigetafel\Tests" />
+      <recent name="C:\Users\agon_\Documents\flights\src\main\resources\META-INF" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\agon_\Documents\flights\src\main\resources" />
+      <recent name="C:\Users\agon_\Documents\flights\src\main\resources\CSV" />
+      <recent name="C:\Users\agon_\Documents\flights\src\main\resources\com\example\fluganzeigetafel" />
+      <recent name="C:\Users\agon_\Documents\flights\src\main\java\com\example\fluganzeigetafel" />
+      <recent name="C:\Users\agon_\Documents\flights\src\main\resources\Fonts" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.fluganzeigetafel" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Starter">
+    <configuration name="Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.fluganzeigetafel.Starter" />
+      <module name="Fluganzeigetafel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.fluganzeigetafel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fluganzeigetafel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.fluganzeigetafel.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.fluganzeigetafel.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.example.fluganzeigetafel.Tests.OrderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubordersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fluganzeigetafel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.fluganzeigetafel.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.fluganzeigetafel.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.example.fluganzeigetafel.Tests.SubordersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeHandlerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fluganzeigetafel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.fluganzeigetafel.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.fluganzeigetafel.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.example.fluganzeigetafel.Tests.TimeHandlerTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilityTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fluganzeigetafel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.fluganzeigetafel.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.fluganzeigetafel.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.example.fluganzeigetafel.Tests.UtilityTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Starter" />
+        <item itemvalue="JUnit.TimeHandlerTests" />
+        <item itemvalue="JUnit.SubordersTest" />
+        <item itemvalue="JUnit.OrderTest" />
+        <item itemvalue="JUnit.UtilityTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03de90a4-60e1-4726-9445-4942bca5d203" name="Changes" comment="" />
+      <created>1702282210918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702282210918</updated>
+      <workItem from="1702282212812" duration="22033000" />
+      <workItem from="1702364984735" duration="3153000" />
+      <workItem from="1702368164486" duration="1745000" />
+      <workItem from="1702372509920" duration="12142000" />
+      <workItem from="1702391094691" duration="147000" />
+      <workItem from="1702406535261" duration="3170000" />
+      <workItem from="1702451310570" duration="23181000" />
+      <workItem from="1702496725810" duration="375000" />
+      <workItem from="1702541771081" duration="712000" />
+      <workItem from="1702558147607" duration="5903000" />
+      <workItem from="1702580026730" duration="1562000" />
+      <workItem from="1702631228230" duration="250000" />
+      <workItem from="1702833237497" duration="3043000" />
+      <workItem from="1702880020014" duration="32266000" />
+      <workItem from="1702966529787" duration="2728000" />
+      <workItem from="1702969316873" duration="30899000" />
+      <workItem from="1703052182934" duration="4000" />
+      <workItem from="1703053739449" duration="28743000" />
+      <workItem from="1703139748486" duration="609000" />
+      <workItem from="1703145266173" duration="26479000" />
+      <workItem from="1703226666190" duration="10768000" />
+      <workItem from="1704180326014" duration="2000" />
+      <workItem from="1704180355732" duration="5637000" />
+      <workItem from="1704192064170" duration="11193000" />
+      <workItem from="1704264418568" duration="19555000" />
+      <workItem from="1704286429470" duration="21000" />
+      <workItem from="1704286534224" duration="6939000" />
+      <workItem from="1704351923101" duration="1279000" />
+      <workItem from="1704353232421" duration="6977000" />
+      <workItem from="1704361256588" duration="942000" />
+      <workItem from="1704362224837" duration="979000" />
+      <workItem from="1704370313129" duration="3000" />
+      <workItem from="1704374576368" duration="500000" />
+      <workItem from="1705304462024" duration="286000" />
+      <workItem from="1705312782282" duration="164000" />
+      <workItem from="1705320990545" duration="80000" />
+      <workItem from="1705322735551" duration="8092000" />
+      <workItem from="1705388695043" duration="7129000" />
+      <workItem from="1705395980267" duration="16355000" />
+      <workItem from="1705480318724" duration="18447000" />
+      <workItem from="1705567010368" duration="8447000" />
+      <workItem from="1705586726910" duration="321000" />
+      <workItem from="1705588859932" duration="627000" />
+      <workItem from="1705910149444" duration="22870000" />
+      <workItem from="1705937078942" duration="212000" />
+      <workItem from="1705995399266" duration="21699000" />
+      <workItem from="1706082541831" duration="20336000" />
+      <workItem from="1706166852337" duration="9656000" />
+      <workItem from="1706182653823" duration="11210000" />
+      <workItem from="1706296776555" duration="176000" />
+      <workItem from="1706537181745" duration="2982000" />
+      <workItem from="1706598369640" duration="24595000" />
+      <workItem from="1706692142313" duration="10596000" />
+      <workItem from="1706705484200" duration="438000" />
+      <workItem from="1706705953527" duration="748000" />
+      <workItem from="1706857734360" duration="12234000" />
+      <workItem from="1706870328651" duration="311000" />
+      <workItem from="1706955065955" duration="7500000" />
+      <workItem from="1706980857731" duration="144000" />
+      <workItem from="1706981466584" duration="504000" />
+      <workItem from="1706983143417" duration="2337000" />
+      <workItem from="1707041401776" duration="5915000" />
+      <workItem from="1707114582933" duration="1541000" />
+      <workItem from="1707116150137" duration="1300000" />
+      <workItem from="1707117484221" duration="1657000" />
+      <workItem from="1707140883247" duration="39000" />
+      <workItem from="1707141192170" duration="811000" />
+      <workItem from="1707142029209" duration="626000" />
+      <workItem from="1707142672046" duration="2000000" />
+      <workItem from="1707144695059" duration="1352000" />
+      <workItem from="1707146356998" duration="537000" />
+      <workItem from="1707206067860" duration="10673000" />
+      <workItem from="1707294622155" duration="1457000" />
+      <workItem from="1707296116710" duration="11000" />
+      <workItem from="1707376034671" duration="32000" />
+      <workItem from="1707376411818" duration="29000" />
+      <workItem from="1707376523011" duration="439000" />
+    </task>
+    <task id="LOCAL-00001" summary="several changes and completed pdfController">
+      <created>1702308060901</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702308060901</updated>
+    </task>
+    <task id="LOCAL-00002" summary="several changes and completed pdfController">
+      <created>1702367176606</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702367176606</updated>
+    </task>
+    <task id="LOCAL-00003" summary="several changes">
+      <created>1702373507050</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702373507050</updated>
+    </task>
+    <task id="LOCAL-00004" summary="several updates">
+      <created>1702406600418</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702406600418</updated>
+    </task>
+    <task id="LOCAL-00005" summary="modularisation of the main class. Cleaning up and refactoring">
+      <created>1702408001792</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702408001792</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added table to a tabPane">
+      <created>1702409616557</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702409616557</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added table to a tabPane">
+      <created>1702477575010</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702477575010</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added table to a tabPane">
+      <created>1704186641927</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704186641927</updated>
+    </task>
+    <task id="LOCAL-00009" summary="dc">
+      <created>1704363193837</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704363193837</updated>
+    </task>
+    <task id="LOCAL-00010" summary="FINAL CHANGES">
+      <created>1706000207593</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706000207593</updated>
+    </task>
+    <task id="LOCAL-00011" summary="FINAL CHANGES">
+      <created>1706002736459</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706002736459</updated>
+    </task>
+    <task id="LOCAL-00012" summary="FINAL CHANGES">
+      <created>1706004813219</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706004813219</updated>
+    </task>
+    <task id="LOCAL-00013" summary="several changes">
+      <created>1706166889134</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706166889134</updated>
+    </task>
+    <task id="LOCAL-00014" summary="several changes">
+      <created>1706167188892</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1706167188892</updated>
+    </task>
+    <task id="LOCAL-00015" summary="several changes">
+      <created>1707046507139</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1707046507139</updated>
+    </task>
+    <task id="LOCAL-00016" summary="several changes">
+      <created>1707046815634</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1707046815634</updated>
+    </task>
+    <task id="LOCAL-00017" summary="several changes">
+      <created>1707145919402</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1707145919403</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/com/example/fluganzeigetafel/DataInterface.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Data/FlightsTable.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Handler/FileHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/FlightChangeManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/PrintManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/StatisticsManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/ViewChangeManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Utility/FilterAndSearchMethods.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Utility/TimeHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Utility/ValidationUtil.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Data/CSVRow.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Forms/OrderForm.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Handler/FileHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Order.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Print/Printer.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Statistics/OrderChangesStats.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Statistics/OrderStats.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Utilis/Utility.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Validation/Validation.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Starter.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Forms/SuborderForm.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Handler/SubOrdersFileHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Statistics/SuborderChangeStats.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Suborder.java">
+      <created>1707146026151</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1707146026151</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/com/example/fluganzeigetafel/DataInterface.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Data/FlightsTable.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Handler/FileHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/FlightChangeManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/PrintManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/StatisticsManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/ViewChangeManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Utility/FilterAndSearchMethods.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Utility/TimeHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Utility/ValidationUtil.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Data/CSVRow.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Forms/OrderForm.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Handler/FileHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Order.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Print/Printer.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Statistics/OrderChangesStats.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Statistics/OrderStats.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Utilis/Utility.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Validation/Validation.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Starter.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Forms/SuborderForm.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Handler/SubOrdersFileHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Statistics/SuborderChangeStats.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Suborder.java">
+      <created>1707146694488</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1707146694488</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/com/example/fluganzeigetafel/DataInterface.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Data/FlightsTable.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Handler/FileHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/FlightChangeManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/PrintManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/StatisticsManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/ViewChangeManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Utility/FilterAndSearchMethods.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Utility/TimeHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Utility/ValidationUtil.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Data/CSVRow.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Forms/OrderForm.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Handler/FileHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Order.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Print/Printer.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Statistics/OrderChangesStats.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Statistics/OrderStats.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Utilis/Utility.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Validation/Validation.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Starter.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Forms/SuborderForm.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Handler/SubOrdersFileHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Statistics/SuborderChangeStats.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Suborder.java">
+      <created>1707146772209</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1707146772209</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="several changes and completed pdfController" />
+    <MESSAGE value="several updates" />
+    <MESSAGE value="modularisation of the main class. Cleaning up and refactoring" />
+    <MESSAGE value="added table to a tabPane" />
+    <MESSAGE value="dc" />
+    <MESSAGE value="FINAL CHANGES" />
+    <MESSAGE value="several changes" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/com/example/fluganzeigetafel/DataInterface.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Data/FlightsTable.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Handler/FileHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/FlightChangeManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/PrintManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/StatisticsManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/ViewChangeManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Utility/FilterAndSearchMethods.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Utility/TimeHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Utility/ValidationUtil.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Data/CSVRow.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Forms/OrderForm.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Handler/FileHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Order.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Print/Printer.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Statistics/OrderChangesStats.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Statistics/OrderStats.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Utilis/Utility.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Validation/Validation.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Starter.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Forms/SuborderForm.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Handler/SubOrdersFileHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Statistics/SuborderChangeStats.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Suborder.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/com/example/fluganzeigetafel/DataInterface.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Data/FlightsTable.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Handler/FileHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/FlightChangeManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/PrintManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/StatisticsManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Manager/ViewChangeManager.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Utility/FilterAndSearchMethods.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Utility/TimeHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Flights/Utility/ValidationUtil.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Data/CSVRow.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Forms/OrderForm.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Handler/FileHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Order.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Print/Printer.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Statistics/OrderChangesStats.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Statistics/OrderStats.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Utilis/Utility.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Orders/Validation/Validation.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Starter.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Forms/SuborderForm.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Handler/SubOrdersFileHandler.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Statistics/SuborderChangeStats.java&#10;#&#9;src/main/java/com/example/fluganzeigetafel/Suborders/Suborder.java" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalStateException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
